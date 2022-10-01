@@ -3,7 +3,6 @@ import person from './data';
 import {MdOutlineReviews} from 'react-icons/md'
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 import { Next } from 'react-bootstrap/esm/PageItem';
-import Header from './Header'
 const Review = () => {
   
   
@@ -26,18 +25,6 @@ const Review = () => {
   const prev =()=>{
     setIndex(checkindex(index-1));
   }
-  // const random=()=>{
-  //   let ind= Math.round(Math.random()*person.length)
-  //   if(ind===index){
-  //     ind = index+1;
-  //   }
-  //   // return ind;
-  //   console.log( ind);
-  //   setIndex(checkindex(ind));
-  // }
- 
-
-  
   return (
   <article className='review'>
     <div className='img-container'>
@@ -58,24 +45,6 @@ const Review = () => {
       </button>
     </div>
     </article>
-  )
-  return(
-  <> 
-  <Header/>
-
-  <main>
-    <section className='container'>
-      
-      <div className='title'>
-        <h2>
-          Our Reviews
-        </h2>
-        <div className='underline'></div>
-      </div>
-      <Review/>
-    </section>
-  </main>
-  </>
   )
 }
   
