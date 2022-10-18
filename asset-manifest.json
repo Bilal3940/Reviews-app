@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/reviews-app/static/css/main.e266e2f5.css",
-    "main.js": "/reviews-app/static/js/main.8a1261bd.js",
-    "index.html": "/reviews-app/index.html",
-    "main.e266e2f5.css.map": "/reviews-app/static/css/main.e266e2f5.css.map",
-    "main.8a1261bd.js.map": "/reviews-app/static/js/main.8a1261bd.js.map"
+    "main.css": "/Reviews-App/static/css/main.e266e2f5.css",
+    "main.js": "/Reviews-App/static/js/main.8a1261bd.js",
+    "index.html": "/Reviews-App/index.html",
+    "main.e266e2f5.css.map": "/Reviews-App/static/css/main.e266e2f5.css.map",
+    "main.8a1261bd.js.map": "/Reviews-App/static/js/main.8a1261bd.js.map"
   },
   "entrypoints": [
     "static/css/main.e266e2f5.css",
